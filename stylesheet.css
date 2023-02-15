@@ -1,3 +1,13 @@
-*{
-    color: blue
+.add-category{
+   height: 90px;
+   width: 80px;
+   margin: 20px;
+   padding: 20px;
 }
+
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(52,235,219);
+ } 
