@@ -32,14 +32,22 @@ button:hover{
  .add-category{
   display: inline-block;
    padding:10px;
-   width:150px
+   width:150px;
  }
 
  .resource{
   width: 300px;
+  height: 300px;
   margin: 10px;
   border: solid black;
+  flex:  0 1 auto;
+  
  }
- 
+
+ .container{
+  display: flex;
+  flex-wrap: wrap;
+  
+ }
 
 
