@@ -50,4 +50,14 @@ button:hover{
   
  }
 
+ .login{
+  margin-left: auto;
+ }
+
+ .header{
+  gap: 30px;
+  margin-bottom: 20px;
+  font-size: large;
+ }
+
 
