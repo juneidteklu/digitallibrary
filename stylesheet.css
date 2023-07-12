@@ -47,13 +47,25 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: none;
   
 }
 
+/* I'm not sure why but when i changed from width: 400px; to flex-basis: 400px;, the search container and search began shrinking below 400px.
+Research the difference between setting a width vs flex-basis */
+
 .search{
-  border: solid black;
-  width: 400px;
-  
+  background-color:rgb(59, 184, 173) ;
+  border: none;
+  max-width: 400px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 9px;
+  flex-basis:400px;
+  min-width: none;
+
 }
 
 
