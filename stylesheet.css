@@ -22,9 +22,17 @@ button:hover{
   background-color: green;
 }
 .hamburger{
-  height: 30px;
-  width: 30px;
-  border: solid black;
+  height: 40px;
+  width: 40px;
+
+}
+
+.hamburger > div{
+  width: 100%;
+  height: 5px;
+  margin: 5px 0;
+  background-color: black;
+  border-radius: 5px;
 }
 
 .header-container{
@@ -38,9 +46,11 @@ button:hover{
 }
 
 .hamburger-container{
-  padding: 0 130px 0 0;
+  flex-shrink: 1;
   display: flex;
   justify-content: flex-start;
+  flex-basis: 160px;
+  
 }
 .search-container{
   flex-grow: 1;
